@@ -1,26 +1,14 @@
 package testing;
-import java.io.File;
-import java.io.FileInputStream;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.commons.io.FileUtils;
-import org.apache.poi.hssf.record.aggregates.RecordAggregate.PositionTrackingVisitor;
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.Point;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import com.gargoylesoftware.htmlunit.javascript.host.Window;
 
 
 
@@ -29,7 +17,7 @@ public class Screenshot extends Login {
 	
 	
 	@Test(priority = 1)
-	//	(description="This is the test to login into gmail")
+	
 	public void takescreenshotgmail() throws Exception
 	{		
 				

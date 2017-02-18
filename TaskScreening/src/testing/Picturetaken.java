@@ -20,7 +20,7 @@ public class Picturetaken extends Login
 	FileUtils.copyFile(src,new File("D:\\Shanthi_Selenium\\Cucumber_Maven\\TaskScreening\\src\\testing\\screenshot"+i+".png"));
 	} 
 	catch (IOException e) {
-	// TODO Auto-generated catch block
+	
 	e.printStackTrace();
 		}	
 	}
